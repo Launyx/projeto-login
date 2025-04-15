@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    body {
+        height: 100vh;
+        background-image: linear-gradient(rgb(101, 42, 119), rgb(121, 72, 136), rgb(214, 253, 253));
+    }
+
+    section#login {
+        display: inline-block;
+        width: 650px;
+    }
+
+    section#login > #imagem, section#login > #formulario{
+        display: inline-block;
+    }
+
+    #formulario > h1, #formulario > p, #email, #senha, #bentrar, #besqueci {
+        width: 250px;
+    }
+}

@@ -2,5 +2,87 @@
 
 /* 
     Paleta de cores
-    
+    cinza claro e azul acizentado
 */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(101, 42, 119);
+}
+
+section#login  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 520px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: rgb(101, 42, 119) url(../imagens/pexels-mattysm-3693599.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: center bottom;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1, div#formulario > p {
+    position: relative;
+    text-align: center;
+    margin: 5px 0px 10px;
+}
+
+#ilogin, #ipass {
+    position: relative;
+    bottom: 6px;
+    background-color: azure;
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#email, #senha {
+    margin: 5px auto 5px;
+    background-color: rgb(101, 42, 119);
+    border-radius: 5px;
+    padding: 5px 0px 0px 5px;
+}
+
+section#login > div#formulario > form > p > label {
+    color: white;
+}
+
+#bentrar, #besqueci {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    margin: 5px 0px 5px 0px;
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+}
+
+#bentrar {
+    background-color: rgb(212, 250, 250);
+}
+
+#besqueci {
+    background-color: azure;
+}
