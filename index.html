@@ -22,18 +22,16 @@
                 <form action="login.php" method="post">
                     <p id="email">
                         <label for="ilogin"><span class="material-symbols-outlined" id="iconlogin">person</span></label>
-                        <input type="text" name="login" id="ilogin" required>
+                        <input type="email" name="login" id="ilogin" placeholder=" Seu E-mail" required>
                     </p>
                     <p id="senha">
                         <label for="ipass"><span class="material-symbols-outlined" id="iconpass">key</span></label>
-                        <input type="text" name="" id="ipass" required>
+                        <input type="text" name="" id="ipass" placeholder=" Sua senha" required minlength="8" maxlength="20">
                     </p>
                     <p>
                         <input type="submit" value="Entrar" id="bentrar">
                     </p>
-                    <p>
-                        <input type="button" value="Esqueci minha senha " id="besqueci">
-                    </p>
+                    <a href="esqueci.html" id="besqueci">Esqueci a senha <span class="material-symbols-outlined" id="iconmail">mail</span></a>
                 </form>
             </div>
         </section>
